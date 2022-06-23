@@ -1,0 +1,417 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  
+  
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+header {
+  top: 0;
+  left: 0;
+  position: relative;
+  
+ background:  #707070 0% 0% no-repeat padding-box;
+
+ background: linear-gradient(186deg, #707070 50% 65%, #fff 50% 35%);
+  padding: 20px 0;
+  width: 100%;
+ 
+ 
+}
+
+.title {
+  text-align: center;
+  color: whitesmoke;
+
+  padding-top: 20px;
+}
+
+.title h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.title p {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 50px;
+ 
+}
+
+.btns button {
+  border: 1px solid #707070;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 15px 60px;
+  color: #888888;
+  cursor: pointer;
+  
+}
+
+.s-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.text {
+    padding-left: 15px;
+  flex:  3;
+  color: #888888;
+}
+.text h2 {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 0px 80px 0 80px;
+}
+
+form input {
+  padding: 10px 70px;
+  outline: none;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #707070;
+}
+
+form  button {
+  border: 1px solid #707070;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 10px 120px;
+  color: #888888;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.radio {
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
+  
+}
+
+.radio div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin-top: 60px;
+  
+}
+
+.traço {
+  
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+}
+
+.traço span {
+  font-size: 21px;
+  font-weight: bold;
+  color: #888888;
+  margin-top: -3px;
+}
+.left {
+  width: 400px;
+  border-top: 3px solid #707070;
+  text-align: center;
+}
+.right {
+  width: 400px;
+  border-top: 3px solid #707070;
+  text-align: center;
+}
+
+.produto {
+  margin-top: 30px;
+  display: grid;
+ grid-template-columns: repeat(4 ,1fr);
+  color: #888888;
+ 
+  padding-left: 20px;
+}
+
+.box {
+  display: flex;
+  max-width: 250px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+}
+
+
+.box  .comprar {
+  border: 1px solid #707070;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 10px 60px;
+  color: #888888;
+  cursor: pointer;
+
+}
+
+.box , .NameDescricao {
+  color: #888888;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.box .Descricao {
+  color: #888888;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.box .sPreço {
+  color: #707070;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.produto  .preço {
+  font-weight: bold;
+  font-size: 23px;  
+  color: #707070;
+}
+
+
+.mais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.mais button {
+  border: 1px solid #707070;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 10px 80px;
+  color: #888888;
+  cursor: pointer;
+}
+
+
+section h3 {
+  color: #707070;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  gap: 40px;
+  color: #707070;
+  margin-top: 35px;
+}
+
+
+.form input {
+  padding: 5px 60px;
+  outline: none;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+.menos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+margin-bottom: 80px;  
+}
+
+.menos button{
+  border: 1px solid #707070;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 10px 80px;
+  color: #888888;
+  cursor: pointer;
+}
+
+.box h4 {
+  display: flex;
+}
+
+
+footer {
+  height: 193px;
+  background-color: #707070;
+}
+
+ .one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 85px;
+ text-align: center;
+ color: whitesmoke;
+ font-weight: bold;
+ font-size: 17px;
+ 
+}
+
+@media (max-width: 1024px) {
+  
+  header {
+    padding: 20px 0;
+    width: 100%;
+  }
+  .title {
+    padding: 25px;
+  }
+
+  .btns button {
+    padding: 10px 20px;
+  }
+
+  .text {
+    padding-left: 40px;
+  }
+
+  .produto .box {
+    gap: 15px;
+    margin-left: 10px;
+  }
+  
+}
+@media (max-width: 850px) {
+  
+ .produto {
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+ }
+  
+}
+@media (max-width: 710px) {
+  
+.text {
+  display: none;
+}
+  
+section h3 {
+  font-size: 18px;
+}
+
+.form input {
+  padding: 8px 30px;
+}
+}
+@media (max-width: 640px) {
+  
+  .btns button {
+    padding: 7px 10px;
+  }
+  .produto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 550px) {
+  
+  .btns  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .btns button {
+    padding: 3px 5px;
+  }
+  .btns button:hover {
+    border: 1px solid black;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+  }
+
+  section h3 {
+    font-size: 13,852px;
+    font-weight: bold;
+  }
+.form input[type = 'text'] , label[type= 'text'] {
+  display: none;
+}
+
+  .mais button {
+    padding: 10px 10px;
+  }
+
+}
+
+
+@media (max-width: 400px) {
+    .produto {
+      display: grid;
+      grid-template-columns: repeat(1);
+    }
+
+   
+}
